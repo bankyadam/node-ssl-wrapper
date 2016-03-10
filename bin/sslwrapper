@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict';
 
 const fs = require('fs');
@@ -24,5 +26,7 @@ httpProxy
   })
   .listen(args.port || 8080)
   .on('error', (e) => {
-    console.log(e);
+    if (e.code === 'ECONNRESET') { return; }
+
+    throw e;
   });

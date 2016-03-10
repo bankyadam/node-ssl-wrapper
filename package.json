@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --harmony index.js"
+    "start": "./bin/sslwrapper"
+  },
+  "bin": {
+    "sslwrapper": "./bin/sslwrapper"
   },
   "repository": {
     "type": "git",
