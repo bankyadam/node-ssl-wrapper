@@ -26,4 +26,4 @@ MIT
 
 Copyright
 ---------
-Adam Brunner (<brunner.adam@gmail.com>)
+Adam Banky (<banky.adam@gmail.com>)
